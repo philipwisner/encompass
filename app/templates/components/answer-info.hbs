@@ -6,5 +6,8 @@
 <section class="problemdetails">
   <p> Answer: {{answer.answer}}</p>
   <p> Answer Explanation: {{answer.explanation}}</p>
+  {{#if answer.imageData}}
+    <img src="{{answer.imageData}}" alt="attached image">
+  {{/if}}
 </section>
 
